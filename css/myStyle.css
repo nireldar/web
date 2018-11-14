@@ -11,6 +11,7 @@ body{
   text-align: center;
   overflow-x: hidden;
   width: 100vw;
+  margin: 0 auto;
 }
 
 
@@ -334,6 +335,7 @@ margin-bottom: 100px;
 
 #row1 .col{
   height: 650px;
+  width: 300px;
   vertical-align: middle;
 }
 
@@ -342,11 +344,16 @@ margin-top: 150px;
 height: 300px;
 }
 
+#melelcol{
+  margin-top: -100px
+}
+#melelcol .divider{
+margin-left: 47.5%;}
 
 
 #mac{
-  margin-top: -48px;
-  margin-left: -70px;
+  margin-top: -28px;
+  margin-left: 175px;
   height: 620px;
   width:620px;
   background-image: url("../images/mac2.png");
@@ -356,25 +363,15 @@ height: 300px;
   position: absolute;
 } 
 
-/* #mac1{
-  margin-top: -70px;
-  margin-left: -70px;
-  height: 620px;
-  width:620px;
-  background-image: url("../images/mac1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -10;
-  position: absolute;
-} */
 
 .carousela{
+  margin-top: 20px;
+  margin-left: 245px;
   height: 300px;
   width: 480px;
   border: 1px siold black;
   border-radius: 20px;
   z-index:-10;
-
   
 }
 
@@ -514,7 +511,9 @@ padding: 5px;
 }
 
 #section3{
+  margin: 0 auto;
   height: 600px;
+  width: 100%;
   color: white
 }
 
@@ -826,32 +825,75 @@ transform: translateY(-5px);
 
 
 @media only screen and (max-width: 750px) {
+#empty2{
+  height:0px;
+}
 
-
+#row1 .col{
+  height: 650px;
+  width: 200px;
+  margin-left: 10px;
+}
   body #mac {
     height: 530px;
     width: 530px;
-    margin-left: -45px;
-    margin-top: 85px
+    margin-left: 230px;
+    margin-top: 55px
   }
 
   body .carousela{
-    margin-top: 117px;
-    margin-left: 10px;
+    margin-top: 87px;
+    margin-left: 285px;
     height: 270px;
     width: 410px;
 
   }
   body #rowApp{
-    width: 104%;
-
+    height:600px;
+    width: 100%;
+    margin-left: 1px;
   }
 
-  body #section1,#section3,footer,#rowApp{  
-    width: 102%;
+  #melelApp{
+    margin-top: 20px;
+  }
+
+ #melelcol{
+margin-top:0px;
+margin-left: 3%;
+ }
+ #melelcol .divider{
+margin-left: 47.5%;   }
+  #logo-2{
+margin-left: 5%;
+  }
+
+#sections2{
+  height: 650px;
+}
+
+  body #section1,#sections2,#sections3,footer{  
+    width: 102.5%;
     background: linear-gradient(to right, #bc4e9c, #f80759); 
   }
+  
+ body #section3{
+    margin: 0 auto;
+    height: 600px;
+    width: 80%;
+    color: white
+  }
+ 
+  body #section2{
+    height: 2100px;
+margin-bottom: 100px;
+  }
 
+
+  body #row2 .col{
+height: 200px;
+margin-bottom: 300px;
+  }
 
 #credit{
   display: none;
@@ -878,7 +920,7 @@ display: none;}
   }
   
   #phone2{  background-image: url("../images/phone3.png");
-    margin-left: 350px; margin-top: -510px; z-index:999;
+    margin-left: 320px; margin-top: -530px; z-index:999;
   }
   #phone3{  background-image: url("../images/phone1.png");
     margin-left: -280px; margin-top: -600px; z-index: 998;
