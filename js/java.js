@@ -4,3 +4,10 @@ $( document ).ready(function() {
   })
 })
 
+$(window).scroll(function() {
+
+  s = $(window).scrollTop();
+  $('#section1').css("-webkit-transform", "translateY(-" + (s/8) + "px)");
+
+
+});
